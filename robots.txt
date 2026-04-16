@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /assets/
+Disallow: /core/
+Disallow: /connectors/
+Disallow: /index.php
+Disallow: *utm*=
+Disallow: *openstat=
+Disallow: *from=
+Disallow: *?tag=
+Disallow: *?search=
+Disallow: /favorites
+Disallow: /cabinet
+
+Allow: /assets/*.jpg
+Allow: /assets/*.jpeg
+Allow: /assets/*.gif
+Allow: /assets/*.png
+Allow: /assets/*.pdf
+Allow: /assets/*.doc
+Allow: /assets/*.docx
+Allow: /assets/*.xls
+Allow: /assets/*.xlsx
+Allow: /assets/*.ppt
+Allow: /assets/*.pptx
+Allow: /assets/*.js
+Allow: /assets/*.css
+
+Sitemap: https://surveyfotos.com/sitemap.xml
+Sitemap: https://surveyfotos.com/sitemapimages.xml
+Host: surveyfotos.com
